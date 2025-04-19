@@ -1,1 +1,1 @@
-# CUDA_100_days_challange
+# GPU_Brr_100_days_challange
