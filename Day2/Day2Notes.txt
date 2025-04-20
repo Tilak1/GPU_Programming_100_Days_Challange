@@ -1,0 +1,5 @@
+Basics of Ch-2 in PMPP Book and Vector addition on GPU were covered
+_host__ vs __device__ vs __global__ usage was experimented 
+Use of double pointer in cudaMalloc((void**)&x) was understood 
+A basic timer header file was also created to use system clock functions
+
