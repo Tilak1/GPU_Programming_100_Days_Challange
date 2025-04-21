@@ -1,0 +1,4 @@
+Concepts covered: 
+Multi Dimensional Data / Grid 
+How multi dim indexing is useful, when accessing pixels in a 2d data 
+dim3 data type
