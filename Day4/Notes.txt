@@ -1,0 +1,2 @@
+Proper Multi dim indexing implemented along with i<N (unused threads in last block) boundary condition. 
+Didnt observe any value i.e gives 0 both on gray scale and elapsed time for all. Need to debug this. 
