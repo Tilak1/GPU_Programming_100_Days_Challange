@@ -14,7 +14,7 @@ __global__ void rgb2gray_kernel(unsigned char* red, unsigned char* green, unsign
     unsigned int col = blockIdx.x * blockDim.x + threadIdx.x;
 
     if (row < height && col < width) { // cond for last block's unsued thread condition
-        int idx = row * width + clock_t // making a 1D index as the RBG are 1D char arrays 
+        int idx = row * width + col; // making a 1D index as the RBG are 1D char arrays 
         // index in a 2D image = row * width + col
         // Every thread will have a diff index as theu have a diff row and col 
         gray[idx] = (unsigned char)(0.299f * red[idx] + 0.587f * green[idx] + 0.114f * blue[idx]);
